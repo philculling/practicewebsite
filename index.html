@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicewebsite</title>
+</head>
+<body>
+    <section>
+        <h1>Title, using "h1"</h1>
+        Practise the basics
+    </section>
+    <br>
+    You wrote "br" inside the "<>" This created a line break.
+    <br>
+    <a target="_blank" href="https:bbc.co.uk">This should open up the BBC website in a new tab</a>
+    <br>
+    <br>
+    <strong><a target="_blank" href="https:bbc.co.uk">This did the same
+        but is bold because you used strong each side of the a tag</a></strong>
+    <section>
+        <a href="#content">This is a placeholder link, which should now
+            link to the part of the page that has the id of
+            "content"; the link will make the site jump down
+             to where "content"begins.
+        </a>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="content">
+        Lots of breaks have been put above to test the placeholder link!
+    </section>
+    <section>
+        <h2>Sub-heading, ordered list, using h2</h2>
+        <ol>
+            <li>Bread</li>
+            <li>Butter</li>
+            <li>Peanut butter</li>
+            <li>This should be numbered</li>
+        </ol>
+        <h2>Sub-heading, unordered list, using h2</h2>
+        <ul>
+            <li>Bread</li>
+            <li>Butter</li>
+            <li>Peanut butter</li>
+            <li>This should NOT be numbered</li>
+        </ul>
+    </section>
+
+    <h2>Table</h2>
+  <table style="width: 100%">
+    <p>This table is copied from their solution. I think that internal styling
+        was used in the line of code above. I'm assuming that tr means table row,
+        th means table heading, td means table data.
+    </p>
+    <!-- Row 1 -->
+    <tr>
+      <th>Animal Class</th>
+      <th>Animal Name</th>
+    </tr>
+
+    <!-- Row 2 -->
+    <tr>
+      <td>Mammal</td>
+      <td>Hyena</td>
+    </tr>
+
+    <!-- Row 3 -->
+    <tr>
+      <td>Reptile</td>
+      <td>Iguana</td>
+    </tr>
+
+    <!-- Row 4 -->
+    <tr>
+      <td>Mammal</td>
+      <td>Chimpanzee</td>
+    </tr>
+
+    <!-- Row 5 -->
+    <tr>
+      <td>Bird</td>
+      <td>Eagle</td>
+    </tr>
+
+  </table>
+  
+  <section>
+    How to add an image. Use opening arrow, img src(source) ="[use relative paths here]"
+    alt="something to describe the image", closing arrow. Like this:
+    
+    <img src="./assets/images/Phil photo.jpg" alt="Phil photo">
+    This is in the middle because further down you used internal styling
+    and applied margin=left: auto and margin-right: auto to your image,
+    which centers it in the middle of the section. 
+  </section>
+
+  <h1>I'm now applying basic CSS principles</h1>
+  <style>
+    /*This is internal styling*/
+    
+    h1 {
+      /* Put a 15-pixel margin at the bottom of the heading. */
+      margin-bottom: 15px;
+      /* Change the size of your font to 60 pixels high. */
+      font-size: 60px;
+      /* This will color the heading font white. */
+      color: white;
+      /* Align the text to the center of its enclosing element (e.g. div). */
+      text-align: center;
+      /* Underline the text. */
+      text-decoration: underline;
+      /* The background of the heading element will now be black. */
+      background-color: black;
+    }
+    /* h2 heading tags */
+    
+    h2 {
+      /* Put a 15-pixel margin at the top of all h2 headings. */
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 40px;
+      text-align: center;
+    }
+    /* h3 heading tags */
+    
+    h3 {
+      margin-top: 15px;
+      font-size: 20px;
+      text-align: center;
+    }
+    /* All img tags */
+    
+    img {
+      /* 
+				Center a block element in the middle of its enclosing tag.
+				When you use the "auto" rule on both left and right margins, 
+				your browser will do the math necessary to center a block element.
+				*/
+      margin-left: auto;
+      margin-right: auto;
+      /* Block display (more on this later) */
+      display: block;
+    }
+    /* All p tags */
+    
+    p {
+      text-align: center;
+      font-size: 20px;
+      /* Bold the text. */
+      font-weight: bold;
+    }
+    /* All unordered list tags */
+    
+    ul {
+      text-align: center;
+      font-size: 35px;
+      /* Give an element a solid border. */
+      border-style: solid;
+      /* Render the border 5 pixels thick. */
+      border-width: 5px;
+      /* Include bullets in the content flow. */
+      /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+      list-style-position: inside;
+    }
+  </style>
+
+  <h1>Awesome Header</h1>
+  <h2>Smaller Awesome Header</h2>
+  <h3>Even Smaller Header</h3>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consequatur unde aut dolores odio hic, accusamus recusandae ipsam illum enim voluptatibus obcaecati totam tempora eum quod sapiente. Corporis, quidem, culpa?</p>
+  <img src="https://pbs.twimg.com/media/BsgYfMQCQAAWVKH.jpg" alt="Awesome" width="25%">
+
+  <h3>Menu Links</h3>
+  <ul>
+    <li><a href="https://www.google.com">Google</a></li>
+    <li><a href="https://www.facebook.com">Facebook</a></li>
+    <li><a href="https://www.twitter.com">Twitter</a></li>
+  </ul>
+
+
+
+</body>
+
+</html>
